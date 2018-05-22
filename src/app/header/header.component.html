@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" class="header-toolbar mat-elevation-z2">
+  <mat-toolbar-row>
+    <span class="header-text">Cricket Application</span>
+
+    <span class="example-spacer"></span>
+
+    <button routerLink="" mat-icon-button>
+        <mat-icon aria-label="Home">home</mat-icon>
+    </button>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon aria-label="account details">account_circle</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item class="header-menu-text">Sign In</button>
+      <button mat-menu-item class="header-menu-text">Register</button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>

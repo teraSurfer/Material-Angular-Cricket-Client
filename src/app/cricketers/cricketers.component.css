@@ -1,0 +1,40 @@
+.container {
+  margin: 2em;
+}
+.card-header-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+}
+
+.card-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.3em;
+}
+
+.card-actions {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+}
+
+.mat-card {
+  background: white;
+  color: black;
+}
+
+.home-card{
+  max-width: 700px;
+  min-width: 600px;
+}
+
+table {
+  width: 100%;
+}
+
+table > th, td {
+  margin: 0.25em;
+}
+
+.full-width {
+  width: 100%;
+  color: black;
+}

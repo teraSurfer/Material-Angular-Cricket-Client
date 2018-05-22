@@ -1,0 +1,14 @@
+<mat-grid-list cols="2" rowHeight="1.5:1">
+    <mat-grid-tile>
+      <mat-card class="player-card">
+          <mat-card-title class="card-header-text">{{player.name}}</mat-card-title>
+          <img mat-card-image [src]="player.photo">
+          <mat-card-content>
+            <p class="card-text">Country: {{player.country | uppercase}}</p>
+            <p class="card-text">Class: {{player.class | lowercase}}</p>
+            <p class="card-text">Status: {{player.active | activePlayer | uppercase}}</p>
+          </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+</mat-grid-list>
